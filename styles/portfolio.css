@@ -10,6 +10,11 @@
 
 /* shared style */
 
+
+.secendory-bg{
+    background-color: #e0b698;
+}
+
 .text-primary{
     color: #FD6E0A;
 }
@@ -28,6 +33,19 @@
     border-radius: 5px;
 
 }
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+}
+.section-description{
+    font-size: 18 px;
+    color: #757575;
+
+}
+
  /* header styes */
 .header{
     background-image: url(../images/developer.png) , url(../images/header_bg.png);
@@ -90,7 +108,30 @@ nav li a{
     font-size: 85px;
 
 }
+
 .bannerr-profile-pic{
     width: 580px;
-
 }
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About section styles */
+ .about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+ }
+ 
+ .item-description{
+    font-weight: 600 ;
+ }
+
+ .about-items{
+    display: flex;
+    justify-content: space-around;
+ }
